@@ -162,6 +162,21 @@
 								color: "secondary",
 								fullWidth: !0,
 								onClick: function(t) {
+									t.preventDefault(), window.location.href = "/lgoldminer"
+								},
+								children: "Sherpuppy Miner"
+							})
+						}),	 Object(p.jsx)(m.a, {
+							item: !0,
+							flexGrow: 1,
+							marginRight: 1,
+							marginTop: 3,
+							alignItems: "center",
+							children: Object(p.jsx)(g.a, {
+								variant: "contained",
+								color: "secondary",
+								fullWidth: !0,
+								onClick: function(t) {
 									t.preventDefault(), window.location.href = "https://Sherpuppy.dog/ksxminer"
 								},
 								children: "KSX Miner"
