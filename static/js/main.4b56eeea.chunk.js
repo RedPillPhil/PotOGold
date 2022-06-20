@@ -57,7 +57,7 @@
 					}), Object(p.jsx)(j.a, {
 						variant: "h6",
 						marginTop: 0,
-						children: "Sherpuppy Token"
+						children: "Pot O' Gold Finance & Games"
 					}), Object(p.jsx)(j.a, {
 						variant: "h6",
 						marginTop: 0,
@@ -66,7 +66,7 @@
 						variant: "h6",
 						marginTop: 0,
 						fontSize: 8,
-						children: "*SHP is a deflationary token! So you must increase slippage on all swaps to 2%!!*"
+						children: "Pot O' Gold is a completely decentralized, autonomous, and transparent finance platform"
 					}), Object(p.jsxs)(x, {
 						container: !0,
 						children: [Object(p.jsx)(m.a, {
@@ -317,10 +317,10 @@
 							main: "#f84354"
 						},
 						secondary: {
-							main: "#ffffff"
+							main: "#000000"
 						},
 						text: {
-							primary: "#ffffff"
+							primary: "#000000"
 						}
 					},
 					typography: {
@@ -332,7 +332,7 @@
 							fontSize: 16
 						},
 						allVariants: {
-							color: "#ffffff"
+							color: "#000000"
 						},
 						h4: {
 							fontWeight: 600,
