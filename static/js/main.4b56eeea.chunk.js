@@ -84,7 +84,6 @@
 								},
 								children: "Buy on luckyswap"
 							})
-						})
 						})]
 					}), Object(p.jsx)(j.a, {
 						variant: "h6",
