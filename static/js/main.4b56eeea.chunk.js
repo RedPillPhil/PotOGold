@@ -114,8 +114,7 @@
 								},
 								children: "KSX Miner"
 							})
-						})]
-					}), 
+						})] 
 					}), Object(p.jsx)(j.a, {
 						variant: "h6",
 						marginTop: 5,
