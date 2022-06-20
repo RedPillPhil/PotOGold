@@ -320,7 +320,7 @@
 							main: "#000000"
 						},
 						text: {
-							primary: "#000000"
+							primary: "#17215E"
 						}
 					},
 					typography: {
@@ -332,7 +332,7 @@
 							fontSize: 16
 						},
 						allVariants: {
-							color: "#000000"
+							color: "#17215E"
 						},
 						h4: {
 							fontWeight: 600,
