@@ -179,7 +179,7 @@
 								onClick: function(t) {
 									t.preventDefault(), window.location.href = "https://Sherpuppy.dog/ksxminer"
 								},
-								children: "KSX Miner"
+								children: "Enter Pot O' Gold with BUSD"
 							})
 						})]
 					}), Object(p.jsx)(j.a, {
