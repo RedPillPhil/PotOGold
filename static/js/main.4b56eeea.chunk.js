@@ -113,8 +113,7 @@
 									t.preventDefault(), window.location.href = "https://Sherpuppy.dog/ksxminer"
 								},
 								children: "KSX Miner"
-							})
-						})] 
+							}) 
 					}), Object(p.jsx)(j.a, {
 						variant: "h6",
 						marginTop: 5,
