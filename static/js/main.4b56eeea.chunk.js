@@ -164,7 +164,7 @@
 								onClick: function(t) {
 									t.preventDefault(), window.location.href = "/lgoldminer"
 								},
-								children: "Enter Pot O' Gold with LGOLD"
+								children: "Enter Pot O' Gold w/ LGOLD"
 							})
 						}),	 Object(p.jsx)(m.a, {
 							item: !0,
