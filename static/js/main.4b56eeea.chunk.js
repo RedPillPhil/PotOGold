@@ -16,7 +16,7 @@
 				g = n(84),
 				m = n(86),
 				j = n(90),
-				s = n.p + "/static/media/FullLogo.e313bec7.png.png",
+				s = n.p + "",
 				p = n(1),
 				b = Object(d.a)("div")((function(t) {
 					var e = t.theme;
