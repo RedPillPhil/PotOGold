@@ -84,7 +84,21 @@
 								},
 								children: "Buy on luckyswap"
 							})
-						})
+						}), Object(p.jsx)(m.a, {
+							item: !0,
+							flexGrow: 1,
+							marginRight: 1,
+							marginTop: 3,
+							alignItems: "center",
+							children: Object(p.jsx)(g.a, {
+								variant: "contained",
+								color: "secondary",
+								fullWidth: !0,
+								onClick: function(t) {
+									t.preventDefault(), window.location.href = "/lgoldminer"
+								},
+								children: "Sherpuppy Miner"
+							})
 						})]
 					}), Object(p.jsx)(j.a, {
 						variant: "h6",
@@ -306,7 +320,7 @@
 							main: "#ffffff"
 						},
 						text: {
-							primary: "#17215E"
+							primary: "#ffffff"
 						}
 					},
 					typography: {
@@ -318,7 +332,7 @@
 							fontSize: 16
 						},
 						allVariants: {
-							color: "#17215E"
+							color: "#ffffff"
 						},
 						h4: {
 							fontWeight: 600,
@@ -383,4 +397,4 @@
 		[61, 1, 2]
 	]
 ]);
-
+//# sourceMappingURL=main.4b56eeea.chunk.js.map
