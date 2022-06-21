@@ -300,7 +300,7 @@
 								color: "primary",
 								fullWidth: !0,
 								onClick: function(e) {
-									e.preventDefault(), window.location.href = "https://LGOLDcat.money/"
+									e.preventDefault(), window.location.href = "/"
 								},
 								children: "Home"
 							})
@@ -426,7 +426,7 @@
 					}), [p]);
 					var j = new g.a;
 					j.setProvider(g.a.givenProvider);
-					var x = new j.eth.Contract(K, "0x51626AD5346e7Be227D8341204a0447077963481");
+					var x = new j.eth.Contract(K, "0x3aC22795304A27edb04Cfe2475DCEf0c5C8B5539");
 					var x2 = new j.eth.Contract(K, "0x3aC22795304A27edb04Cfe2475DCEf0c5C8B5539");
 					return Object(C.jsx)($.Provider, {
 						value: {
@@ -704,7 +704,7 @@
 								children: "Wallet"
 							}), Object(C.jsxs)(F.a, {
 								variant: "h5",
-								children: [T.busd, " LGOLD"]
+								children: [T.busd, " BUSD"]
 							})]
 						}), Object(C.jsxs)(Z.a, {
 							container: !0,
