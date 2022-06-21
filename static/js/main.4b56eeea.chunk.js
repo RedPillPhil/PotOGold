@@ -102,7 +102,7 @@
 								color: "primary",
 								fullWidth: !0,
 								onClick: function(t) {
-									t.preventDefault(), window.location.href = "https://sherpax.io/"
+									t.preventDefault(), window.location.href = "/lgoldminer"
 								},
 								children: "LGOLD Miner"
 							})
@@ -117,7 +117,7 @@
 								color: "primary",
 								fullWidth: !0,
 								onClick: function(t) {
-									t.preventDefault(), window.location.href = "https://www.chainx.org/"
+									t.preventDefault(), window.location.href = "/busdMiner"
 								},
 								children: "BUSD  Miner"
 							})
@@ -132,7 +132,7 @@
 								color: "primary",
 								fullWidth: !0,
 								onClick: function(t) {
-									t.preventDefault(), window.location.href = "https://soswap.finance/#/swap"
+									t.preventDefault(), window.location.href = "/clickgameBUSD"
 								},
 								children: "Click Game BUSD"
 							})
@@ -147,7 +147,7 @@
 								color: "primary",
 								fullWidth: !0,
 								onClick: function(t) {
-									t.preventDefault(), window.location.href = "https://www.coming.chat/"
+									t.preventDefault(), window.location.href = "/clickgameLGOLD"
 								},
 								children: "Click Game LGOLD"
 							})
@@ -177,7 +177,7 @@
 								color: "secondary",
 								fullWidth: !0,
 								onClick: function(t) {
-									t.preventDefault(), window.location.href = "https://Sherpuppy.dog/ksxminer"
+									t.preventDefault(), window.location.href = "/lotterybusd"
 								},
 								children: "Enter Pot O' Gold w/ BUSD"
 							})
@@ -199,7 +199,7 @@
 								color: "primary",
 								fullWidth: !0,
 								onClick: function(t) {
-									t.preventDefault(), window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSfu598m3mJyAqHppUDawpIdFgy4jh6kGVptrcpVaHqqK8cYgw/viewform"
+									t.preventDefault(), window.location.href = "/rebase"
 								},
 								children: "LGOLD Rebase"
 							})
