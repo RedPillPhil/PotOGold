@@ -76,9 +76,9 @@
 						package: v.a,
 						options: {
 							rpc: {
-								1506: "https://mainnet.sherpax.io/rpc"
+								3: "https://ropsten.infura.io/v3/"
 							},
-							network: "SherpaX"
+							network: "Ropsten"
 						}
 					}
 				},
@@ -369,7 +369,7 @@
 			}
 			var K = n(408),
 				N = n(409),
-				q = 1506,
+				q = 3,
 				X = "0x11d43f37b080329d5CF676111905ea73A6B51497",
 				_ = "https://evm.sherpax.io/address/0x0C36b31Ecf7B6a72E24cC678cCD570Ec810538C3",
 				$ = Object(a.createContext)({
