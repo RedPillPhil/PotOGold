@@ -104,7 +104,7 @@
 								onClick: function(t) {
 									t.preventDefault(), window.location.href = "https://sherpax.io/"
 								},
-								children: "SherpaX"
+								children: "LGOLD Miner"
 							})
 						}), Object(p.jsx)(m.a, {
 							item: !0,
@@ -119,7 +119,7 @@
 								onClick: function(t) {
 									t.preventDefault(), window.location.href = "https://www.chainx.org/"
 								},
-								children: "ChainX"
+								children: "BUSD  Miner"
 							})
 						}), Object(p.jsx)(m.a, {
 							item: !0,
@@ -134,7 +134,7 @@
 								onClick: function(t) {
 									t.preventDefault(), window.location.href = "https://soswap.finance/#/swap"
 								},
-								children: "SoSwap"
+								children: "Click Game BUSD"
 							})
 						}), Object(p.jsx)(m.a, {
 							item: !0,
@@ -149,7 +149,7 @@
 								onClick: function(t) {
 									t.preventDefault(), window.location.href = "https://www.coming.chat/"
 								},
-								children: "Coming Chat"
+								children: "Click Game LGOLD"
 							})
 						}), Object(p.jsx)(m.a, {
 							item: !0,
@@ -201,7 +201,7 @@
 								onClick: function(t) {
 									t.preventDefault(), window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSfu598m3mJyAqHppUDawpIdFgy4jh6kGVptrcpVaHqqK8cYgw/viewform"
 								},
-								children: "Airdrop Signup"
+								children: "LGOLD Rebase"
 							})
 						})
 					}), Object(p.jsx)(j.a, {
