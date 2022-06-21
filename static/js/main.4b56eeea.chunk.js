@@ -162,7 +162,7 @@
 								color: "secondary",
 								fullWidth: !0,
 								onClick: function(t) {
-									t.preventDefault(), window.location.href = "/lgoldminer"
+									t.preventDefault(), window.location.href = "/lottery"
 								},
 								children: "Enter Pot O' Gold w/ LGOLD"
 							})
