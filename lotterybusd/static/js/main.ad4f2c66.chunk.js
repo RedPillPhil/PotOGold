@@ -573,7 +573,7 @@
 							return A.a.wrap((function(e) {
 								for (;;) switch (e.prev = e.next) {
 									case 0:
-										return L(!0), t = N(), a = s("".concat(k)), e.prev = 3, e.next = 6, n.methods.enterWithLGOLD(t, a).send({
+										return L(!0), t = N(), a = s("".concat(k)), e.prev = 3, e.next = 6, n.methods.enterWithBUSD(t, a).send({
 											from: b,
 											value: 0
 										});
