@@ -361,7 +361,7 @@
 						right: 18,
 						fontWeight: 500,
 						color: "black",
-						children: "BUSD"
+						children: " BUSD or LGOLD"
 					})]
 				})
 			}
@@ -728,19 +728,6 @@
 								children: [T.beans, " LGOLD"]
 							})]
 						}), Object(C.jsxs)(c.a, {
-							paddingTop: 4,
-							paddingBottom: 3,
-							children: [Object(C.jsx)(c.a, {
-								children: Object(C.jsx)(J, {
-									max: +T.busd,
-									value: k,
-									onChange: function(e) {
-										return function(e) {
-											W(e)
-										}(e)
-									}
-								})
-							}), Object(C.jsxs)(c.a, {
 							paddingTop: 4,
 							paddingBottom: 3,
 							children: [Object(C.jsx)(c.a, {
