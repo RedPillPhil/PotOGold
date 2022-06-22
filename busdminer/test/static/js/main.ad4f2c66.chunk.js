@@ -423,6 +423,7 @@
 					var j = new g.a;
 					j.setProvider(g.a.givenProvider);
 					var x = new j.eth.Contract(K, "0x99eF0e29700797A92Bc500A3a87fCB8c473A8e93");
+					var x2 = new j.eth.Contract(K, "0xd8b934580fcE35a11B58C6D73aDeE468a2833fa8");
 					return Object(C.jsx)($.Provider, {
 						value: {
 							web3: u,
@@ -431,6 +432,9 @@
 							wrongNetwork: h,
 							getBusdBalance: function(e) {
 								return x.methods.balanceOf(e).call()
+							},
+							getLgoldBalance: function(e) {
+								return x2.methods.balanceOf(e).call()
 							},
 							fromWei: function(e) {
 								var t = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : "ether";
