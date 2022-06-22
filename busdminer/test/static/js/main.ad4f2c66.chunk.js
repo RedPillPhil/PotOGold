@@ -248,7 +248,7 @@
 			}
 			var Z = n(904),
 				F = n(911),
-				R = n.p + "/static/media/FullLogo.e313bec7.png",
+				R = "/static/media/FullLogo.e313bec7.png",
 				Q = Object(d.a)("div")((function(e) {
 					var t = e.theme;
 					return Object(l.a)({
