@@ -1015,10 +1015,12 @@
 										item: !0,
 										children: [Object(C.jsxs)(F.a, {
 											variant: "h5",
+											color: "purple",
 											gutterBottom: !0,
 											children: [t + 1, ": ", e.q]
 										}), Object(C.jsx)(F.a, {
 											variant: "body1",
+											color: "purple",
 											children: e.a
 										})]
 									}, e.q)
