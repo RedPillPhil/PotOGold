@@ -854,6 +854,7 @@
 									children: [Object(C.jsx)(F.a, {
 										variant: "body1",
 										gutterBottom: !0,
+										color: "purple",
 										children: e.label
 									}), Object(C.jsxs)(F.a, {
 										gutterBottom: !0,
