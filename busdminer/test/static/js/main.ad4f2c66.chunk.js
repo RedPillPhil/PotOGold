@@ -965,7 +965,7 @@
 							return r(!0)
 						},
 						startIcon: Object(C.jsx)(ye.a, {}),
-						children: "Airdrop & Staking Details"
+						children: "Staking Details"
 					}), Object(C.jsx)(pe.a, {
 						open: n,
 						onClose: i,
