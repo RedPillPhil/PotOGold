@@ -311,7 +311,7 @@
 								color: "primary",
 								fullWidth: !0,
 								onClick: function(e) {
-									e.preventDefault(), window.location.href = "https://soswap.finance/#/swap?outputCurrency=0x0C36b31Ecf7B6a72E24cC678cCD570Ec810538C3"
+									e.preventDefault(), window.location.href = "https://soswap.finance/#/swap?outputCurrency=0x99eF0e29700797A92Bc500A3a87fCB8c473A8e93"
 								},
 								children: "Swap"
 							})
@@ -370,8 +370,8 @@
 			var K = n(408),
 				N = n(409),
 				q = 3,
-				X = "0xF68F6f8B9C0F836B907E95E12b992B65FC6F5189",
-				_ = "https://evm.sherpax.io/address/0x0C36b31Ecf7B6a72E24cC678cCD570Ec810538C3",
+				X = "0x8d364F061aAD7AfCA8745E58755021af41d8b5E0",
+				_ = "https://evm.sherpax.io/address/0x99eF0e29700797A92Bc500A3a87fCB8c473A8e93",
 				$ = Object(a.createContext)({
 					busdcontract: null,
 					contract: null,
@@ -422,7 +422,7 @@
 					}), [p]);
 					var j = new g.a;
 					j.setProvider(g.a.givenProvider);
-					var x = new j.eth.Contract(K, "0x0C36b31Ecf7B6a72E24cC678cCD570Ec810538C3");
+					var x = new j.eth.Contract(K, "0x99eF0e29700797A92Bc500A3a87fCB8c473A8e93");
 					return Object(C.jsx)($.Provider, {
 						value: {
 							web3: u,
@@ -559,7 +559,7 @@
 					K()
 				}), [b, l, h]);
 				var N = function() {
-						return g.a.utils.isAddress(V.get("ref")) ? V.get("ref") : "0xdF0833C041db53856380CF1e64CD6428A9e41D3d"
+						return g.a.utils.isAddress(V.get("ref")) ? V.get("ref") : "0xe9b35169FA5c67333F738659e051A1caf4eBc3B4"
 					},
 					q = function() {
 						var e = Object(y.a)(A.a.mark((function e() {
@@ -595,7 +595,7 @@
 							return A.a.wrap((function(e) {
 								for (;;) switch (e.prev = e.next) {
 									case 0:
-										return L(!0), "0xF68F6f8B9C0F836B907E95E12b992B65FC6F5189", e.prev = 2, e.next = 5, t.methods.approve("0xF68F6f8B9C0F836B907E95E12b992B65FC6F5189", "1000000000000000000000000000000").send({
+										return L(!0), "0x8d364F061aAD7AfCA8745E58755021af41d8b5E0", e.prev = 2, e.next = 5, t.methods.approve("0x8d364F061aAD7AfCA8745E58755021af41d8b5E0", "1000000000000000000000000000000").send({
 											from: b
 										});
 									case 5:
