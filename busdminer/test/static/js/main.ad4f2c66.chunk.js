@@ -842,6 +842,7 @@
 							variant: "h5",
 							borderBottom: "6px solid",
 							paddingBottom: 1,
+							color: "purple",
 							children: "Staking Details"
 						}), Object(C.jsx)(c.a, {
 							paddingTop: 2,
@@ -851,7 +852,6 @@
 									justifyContent: "space-between",
 									children: [Object(C.jsx)(F.a, {
 										variant: "body1",
-										color: "purple",
 										gutterBottom: !0,
 										children: e.label
 									}), Object(C.jsxs)(F.a, {
