@@ -248,7 +248,7 @@
 			}
 			var Z = n(904),
 				F = n(911),
-				R = "/static/media/FullLogo.e313bec7.png",
+				R = n.p + "https://sherpuppy.dog/shpminer/static/media/imageedit_6_8245814865.png",
 				Q = Object(d.a)("div")((function(e) {
 					var t = e.theme;
 					return Object(l.a)({
