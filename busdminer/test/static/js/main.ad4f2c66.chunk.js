@@ -842,7 +842,8 @@
 							variant: "h5",
 							borderBottom: "6px solid",
 							paddingBottom: 1,
-							children: "Staking Details"
+							children: "Staking Details",
+							color: "purple"
 						}), Object(C.jsx)(c.a, {
 							paddingTop: 2,
 							children: ie.map((function(e) {
@@ -850,8 +851,7 @@
 									container: !0,
 									justifyContent: "space-between",
 									children: [Object(C.jsx)(F.a, {
-										variant: "body1",
-										color: "purple",
+										variant: "body1",,
 										gutterBottom: !0,
 										children: e.label
 									}), Object(C.jsxs)(F.a, {
