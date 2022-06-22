@@ -767,7 +767,6 @@
 									variant: "contained",
 									fullWidth: !0,
 									disabled: r || !b || 0 === +k || U || 0 === +T.approved,
-									color: "secondary",
 									onClick: qt,
 									children: "Add LGOLD"
 								})
@@ -1114,7 +1113,7 @@
 							main: "#f84354"
 						},
 						secondary: {
-							main: "#f84354"
+							main: "#ffffff"
 						},
 						text: {
 							primary: "#000000"
