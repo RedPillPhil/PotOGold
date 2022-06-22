@@ -361,7 +361,7 @@
 						right: 3,
 						fontWeight: 500,
 						color: "black",
-						children: "Stake BUSD                or                 Add LGOLD "
+						children: "Stake BUSD                \n \n                 Add LGOLD "
 					})]
 				})
 			}
