@@ -842,13 +842,13 @@
 							variant: "h5",
 							borderBottom: "6px solid",
 							paddingBottom: 1,
-							color: "purple",
 							children: "Staking Details"
 						}), Object(C.jsx)(c.a, {
 							paddingTop: 2,
 							children: ie.map((function(e) {
 								return Object(C.jsxs)(Z.a, {
 									container: !0,
+									color: "purple",
 									justifyContent: "space-between",
 									children: [Object(C.jsx)(F.a, {
 										variant: "body1",
