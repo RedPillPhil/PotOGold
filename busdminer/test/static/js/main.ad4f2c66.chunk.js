@@ -758,6 +758,7 @@
 									variant: "contained",
 									fullWidth: !0,
 									disabled: r || !b || 0 === +k || U || 0 === +T.approved,
+									color: "orange",
 									onClick: q,
 									children: "Stake BUSD"
 								})
