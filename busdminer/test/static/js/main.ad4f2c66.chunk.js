@@ -357,7 +357,7 @@
 					}), Object(C.jsx)(F.a, {
 						fontSize: 6,
 						position: "absolute",
-						top: 20,
+						top: 18,
 						right: 1,
 						fontWeight: 300,
 						color: "black",
