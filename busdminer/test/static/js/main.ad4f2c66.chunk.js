@@ -747,6 +747,7 @@
 									variant: "contained",
 									fullWidth: !0,
 									disabled: r || !b || U || 0 != +T.approved,
+									color: "orange",
 									onClick: _,
 									children: "Approve"
 								})
@@ -850,6 +851,7 @@
 									justifyContent: "space-between",
 									children: [Object(C.jsx)(F.a, {
 										variant: "body1",
+										color: "purple",
 										gutterBottom: !0,
 										children: e.label
 									}), Object(C.jsxs)(F.a, {
@@ -1117,10 +1119,17 @@
 							main: "#8ddc5f"
 						},
 						third: {
+							main: "#ffbd45"
+						},
+						orange: {
 							main: "#fdeb47"
+						},
+						purple: {
+							main: "#9a6efb"
 						},
 						text: {
 							primary: "#000000"
+							secondary: "fdea46"
 						}
 					},
 					typography: {
