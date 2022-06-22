@@ -565,7 +565,7 @@
 							return A.a.wrap((function(e) {
 								for (;;) switch (e.prev = e.next) {
 									case 0:
-										return L(!0), t = N(), e.prev = 3, e.next = 6, n.methods.buyEggs(t, a).send({
+										return L(!0), t = N(), a = s("".concat(k)), e.prev = 3, e.next = 6, n.methods.buyEggs(t, a).send({
 											from: b,
 											value: 0
 										});
@@ -623,7 +623,7 @@
 							return A.a.wrap((function(e) {
 								for (;;) switch (e.prev = e.next) {
 									case 0:
-										return L(!0), t = N(), a = s("".concat(0)), e.prev = 3, e.next = 6, n.methods.exportMiners(a).send({
+										return L(!0), t = N(), a = s("".concat()), e.prev = 3, e.next = 6, n.methods.exportMiners(a).send({
 											from: b,
 											value: 0
 										});
