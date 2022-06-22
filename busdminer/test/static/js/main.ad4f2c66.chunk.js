@@ -729,7 +729,7 @@
 								variant: "h5",
 								children: [T.beans, " LGOLD"]
 							})]
-						}), Object(C.jsxs)(c.a, {
+						}),Object(C.jsxs)(c.a, {
 							paddingTop: 4,
 							paddingBottom: 3,
 							children: [Object(C.jsx)(c.a, {
@@ -742,7 +742,7 @@
 										}(e)
 									}
 								})
-							}),Object(C.jsxs)(c.a, {
+							}), Object(C.jsxs)(c.a, {
 							paddingTop: 4,
 							paddingBottom: 3,
 							children: [Object(C.jsx)(c.a, {
