@@ -617,7 +617,7 @@
 							return e.apply(this, arguments)
 						}
 					}(),
-					qtp = function() {
+					qp = function() {
 						var e = Object(y.a)(A.a.mark((function e() {
 							var t, a;
 							return A.a.wrap((function(e) {
@@ -799,7 +799,7 @@
 									fullWidth: !0,
 									disabled: r || !b || 0 === +k || U || 0 === +T.approved,
 									color: "third",
-									onClick: qtp,
+									onClick: qp,
 									children: "Retrieve LGOLD"
 								})
 							}),Object(C.jsx)(c.a, {
