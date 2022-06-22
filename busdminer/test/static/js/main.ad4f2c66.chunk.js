@@ -880,7 +880,7 @@
 						background: "white",
 						width: "100%",
 						outline: "none",
-						color: e.theme.palette.purple.main
+						color: e.theme.palette.blue.main
 					}
 				}));
 
@@ -1133,6 +1133,9 @@
 						},
 						purple: {
 							main: "#9a6efb"
+						},
+						blue: {
+							main: "#66ddfd"
 						},
 						text: {
 							primary: "#000000",
