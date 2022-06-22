@@ -1119,10 +1119,10 @@
 							main: "#8ddc5f"
 						},
 						third: {
-							main: "#ffbd45"
+							main: "#ffeb47"
 						},
 						orange: {
-							main: "#fdeb47"
+							main: "#ffbd44"
 						},
 						purple: {
 							main: "#9a6efb"
