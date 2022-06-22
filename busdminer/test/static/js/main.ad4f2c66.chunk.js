@@ -358,7 +358,7 @@
 						fontSize: 10,
 						position: "absolute",
 						top: 9,
-						right: 8,
+						right: 3,
 						fontWeight: 500,
 						color: "black",
 						children: "BUSD/LGOLD "
