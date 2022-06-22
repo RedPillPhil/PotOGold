@@ -688,7 +688,7 @@
 								variant: "h5",
 								children: [x, " BUSD"]
 							})]
-						}), Object(C.jsxs)(Z.a, {
+						})/*, Object(C.jsxs)(Z.a, {
 							container: !0,
 							justifyContent: "space-between",
 							alignItems: "center",
@@ -700,7 +700,7 @@
 								variant: "h5",
 								children: [T.busd, " BUSD"]
 							})]
-						}),Object(C.jsxs)(Z.a, {
+						})*/,Object(C.jsxs)(Z.a, {
 							container: !0,
 							justifyContent: "space-between",
 							alignItems: "center",
