@@ -769,6 +769,7 @@
 									disabled: r || !b || 0 === +k || U || 0 === +T.approved,
 									onClick: qt,
 									children: "Add LGOLD"
+									color: "primary";
 								})
 							}), Object(C.jsx)(H.a, {}), Object(C.jsxs)(Z.a, {
 								container: !0,
