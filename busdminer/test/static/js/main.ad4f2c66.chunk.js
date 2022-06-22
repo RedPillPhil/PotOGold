@@ -361,7 +361,7 @@
 						right: 3,
 						fontWeight: 500,
 						color: "black",
-						children: "BUSD/nLGOLD "
+						children: "BUSD\nLGOLD "
 					})]
 				})
 			}
