@@ -361,7 +361,7 @@
 						right: 18,
 						fontWeight: 500,
 						color: "black",
-						children: " BUSD or LGOLD"
+						children: " "
 					})]
 				})
 			}
