@@ -1023,7 +1023,7 @@
 										})]
 									}, e.q)
 								})), Object(C.jsx)(de.a, {
-									color: "primary",
+									color: "purple",
 									style: {
 										position: "absolute",
 										right: -25,
