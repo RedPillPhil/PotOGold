@@ -850,7 +850,8 @@
 									container: !0,
 									justifyContent: "space-between",
 									children: [Object(C.jsx)(F.a, {
-										variant: "body1",,
+										variant: "body1",
+										color: "purple",
 										gutterBottom: !0,
 										children: e.label
 									}), Object(C.jsxs)(F.a, {
@@ -1118,7 +1119,7 @@
 							main: "#8ddc5f"
 						},
 						third: {
-							main: "#ffeb47"
+							main: "#ffeb45"
 						},
 						orange: {
 							main: "#ffbd44"
