@@ -842,6 +842,7 @@
 							variant: "h5",
 							borderBottom: "6px solid",
 							paddingBottom: 1,
+							color: "purple",
 							children: "Staking Details"
 						}), Object(C.jsx)(c.a, {
 							paddingTop: 2,
@@ -856,6 +857,7 @@
 										children: e.label
 									}), Object(C.jsxs)(F.a, {
 										gutterBottom: !0,
+										color: "purple",
 										children: [e.value, "%"]
 									})]
 								}, e.label)
