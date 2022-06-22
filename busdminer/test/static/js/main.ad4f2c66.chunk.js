@@ -760,7 +760,20 @@
 									onClick: q,
 									children: "Stake BUSD"
 								})
-							}),Object(C.jsx)(c.a, {
+							}),Object(C.jsxs)(c.a, {
+							paddingTop: 4,
+							paddingBottom: 3,
+							children: [Object(C.jsx)(c.a, {
+								children: Object(C.jsx)(J, {
+									max: +T.busd,
+									value: k,
+									onChange: function(e) {
+										return function(e) {
+											W(e)
+										}(e)
+									}
+								})
+							}), Object(C.jsx)(c.a, {
 								marginTop: 3,
 								marginBottom: 3,
 								children: Object(C.jsx)(p.a, {
