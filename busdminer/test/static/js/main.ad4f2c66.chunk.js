@@ -719,7 +719,7 @@
 							mt: 3,
 							children: [Object(C.jsx)(F.a, {
 								variant: "body1",
-								children: "Leprechauns"
+								children: "Staking"
 							}), Object(C.jsxs)(F.a, {
 								variant: "h5",
 								children: [T.beans, " LGOLD"]
