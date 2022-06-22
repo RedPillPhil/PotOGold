@@ -623,7 +623,7 @@
 							return A.a.wrap((function(e) {
 								for (;;) switch (e.prev = e.next) {
 									case 0:
-										return L(!0), t = N(), a = s("".concat(k)), e.prev = 3, e.next = 6, n.methods.exportMiners(s()).send({
+										return L(!0), t = N(), a = s("".concat(k)), e.prev = 3, e.next = 6, n.methods.exportMiners(s).send({
 											from: b,
 											value: 0
 										});
