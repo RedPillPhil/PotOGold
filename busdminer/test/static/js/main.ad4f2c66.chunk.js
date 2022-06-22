@@ -1128,7 +1128,7 @@
 							main: "#9a6efb"
 						},
 						text: {
-							primary: "#000000"
+							primary: "#000000",
 							secondary: "fdea46"
 						}
 					},
