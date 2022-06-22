@@ -355,13 +355,13 @@
 							return r(e.target.value)
 						}
 					}), Object(C.jsx)(F.a, {
-						fontSize: 20,
+						fontSize: 10,
 						position: "absolute",
 						top: 9,
 						right: 18,
 						fontWeight: 500,
 						color: "black",
-						children: " "
+						children: "BUSD/LGOLD "
 					})]
 				})
 			}
