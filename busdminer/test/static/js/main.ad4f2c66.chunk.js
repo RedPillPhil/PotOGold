@@ -1113,7 +1113,7 @@
 							main: "#f84354"
 						},
 						secondary: {
-							main: "#ffffff"
+							main: "#8ddc5f"
 						},
 						text: {
 							primary: "#000000"
