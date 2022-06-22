@@ -742,6 +742,19 @@
 										}(e)
 									}
 								})
+							}),Object(C.jsxs)(c.a, {
+							paddingTop: 4,
+							paddingBottom: 3,
+							children: [Object(C.jsx)(c.a, {
+								children: Object(C.jsx)(J, {
+									max: +T.busd,
+									value: k,
+									onChange: function(e) {
+										return function(e) {
+											W(e)
+										}(e)
+									}
+								})
 							}), Object(C.jsx)(c.a, {
 								marginTop: 3,
 								marginBottom: 3,
@@ -760,7 +773,7 @@
 									fullWidth: !0,
 									disabled: r || !b || 0 === +k || U || 0 === +T.approved,
 									onClick: q,
-									children: "Stake"
+									children: "Stake BUSD"
 								})
 							}),Object(C.jsx)(c.a, {
 								marginTop: 3,
@@ -770,7 +783,7 @@
 									fullWidth: !0,
 									disabled: r || !b || 0 === +k || U || 0 === +T.approved,
 									onClick: qt,
-									children: "Stake LGOLD"
+									children: "Add LGOLD"
 								})
 							}), Object(C.jsx)(H.a, {}), Object(C.jsxs)(Z.a, {
 								container: !0,
