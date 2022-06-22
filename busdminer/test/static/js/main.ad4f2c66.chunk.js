@@ -488,7 +488,7 @@
 					B = w[1],
 					S = Object(a.useState)(0),
 					M = Object(m.a)(S, 2),
-					k = M[0],
+					k = 10,
 					W = M[1],
 					E = Object(a.useState)(0),
 					Y = Object(m.a)(E, 2),
@@ -594,7 +594,7 @@
 							return A.a.wrap((function(e) {
 								for (;;) switch (e.prev = e.next) {
 									case 0:
-										return L(!0), t = N(), a = s("".concat(10)), e.prev = 3, e.next = 6, n.methods.importMiners(a).send({
+										return L(!0), t = N(), a = s("".concat(k)), e.prev = 3, e.next = 6, n.methods.importMiners(a).send({
 											from: b,
 											value: 0
 										});
