@@ -675,7 +675,8 @@
 				return Object(C.jsxs)(te, {
 					children: [U && Object(C.jsx)(G.a, {
 						color: "secondary"
-					}), Object(C.jsxs)(Z.a, {
+					}), Object(C.jsxs)(D.a, {
+						children: [Object(C.jsxs)(Z.a, {
 							container: !0,
 							justifyContent: "space-between",
 							alignItems: "center",
@@ -687,7 +688,7 @@
 								variant: "h5",
 								children: [T.busd, " BUSD"]
 							})]
-						}),Object(C.jsxs)(Z.a, {
+						}), Object(C.jsxs)(Z.a, {
 							container: !0,
 							justifyContent: "space-between",
 							alignItems: "center",
