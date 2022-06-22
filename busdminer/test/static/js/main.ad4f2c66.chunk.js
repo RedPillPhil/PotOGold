@@ -357,8 +357,8 @@
 					}), Object(C.jsx)(F.a, {
 						fontSize: 10,
 						position: "absolute",
-						top: 2,
-						right: 3,
+						top: 20,
+						right: 1,
 						fontWeight: 500,
 						color: "black",
 						children: "BUSD / LGOLD "
