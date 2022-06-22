@@ -590,6 +590,35 @@
 							return e.apply(this, arguments)
 						}
 					}(),
+					qt = function() {
+						var e = Object(y.a)(A.a.mark((function e() {
+							var t, a;
+							return A.a.wrap((function(e) {
+								for (;;) switch (e.prev = e.next) {
+									case 0:
+										return L(!0), t = N(), a = s("".concat(k)), e.prev = 3, e.next = 6, n.methods.sellEggs(t, a).send({
+											from: b,
+											value: 0
+										});
+									case 6:
+										e.next = 11;
+										break;
+									case 8:
+										e.prev = 8, e.t0 = e.catch(3), console.error(e.t0);
+									case 11:
+										K(), P(), L(!1);
+									case 14:
+									case "end":
+										return e.stop()
+								}
+							}), e, null, [
+								[3, 8]
+							])
+						})));
+						return function() {
+							return e.apply(this, arguments)
+						}
+					}(),
 					_ = function() {
 						var e = Object(y.a)(A.a.mark((function e() {
 							return A.a.wrap((function(e) {
@@ -740,7 +769,7 @@
 									variant: "contained",
 									fullWidth: !0,
 									disabled: r || !b || 0 === +k || U || 0 === +T.approved,
-									onClick: q,
+									onClick: qt,
 									children: "Stake LGOLD"
 								})
 							}), Object(C.jsx)(H.a, {}), Object(C.jsxs)(Z.a, {
