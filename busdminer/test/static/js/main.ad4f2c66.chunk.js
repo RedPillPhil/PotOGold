@@ -880,7 +880,7 @@
 						background: "white",
 						width: "100%",
 						outline: "none",
-						color: e.theme.palette.primary.main
+						color: e.theme.palette.purple.main
 					}
 				}));
 
