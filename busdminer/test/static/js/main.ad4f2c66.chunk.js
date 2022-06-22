@@ -760,7 +760,7 @@
 									onClick: q,
 									children: "Stake BUSD"
 								})
-							}),Object(C.jsxs)(c.a, {
+							}), Object(C.jsxs)(c.a, {
 							paddingTop: 4,
 							paddingBottom: 3,
 							children: [Object(C.jsx)(c.a, {
