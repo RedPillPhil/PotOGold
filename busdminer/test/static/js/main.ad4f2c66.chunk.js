@@ -357,11 +357,11 @@
 					}), Object(C.jsx)(F.a, {
 						fontSize: 10,
 						position: "absolute",
-						top: 9,
+						top: 2,
 						right: 3,
 						fontWeight: 500,
 						color: "black",
-						children: "BUSD\nLGOLD "
+						children: "Stake BUSD                or                 Add LGOLD "
 					})]
 				})
 			}
