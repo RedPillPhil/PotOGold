@@ -675,20 +675,7 @@
 				return Object(C.jsxs)(te, {
 					children: [U && Object(C.jsx)(G.a, {
 						color: "secondary"
-					}), Object(C.jsxs)(D.a, {
-						children: [Object(C.jsxs)(Z.a, {
-							container: !0,
-							justifyContent: "space-between",
-							alignItems: "center",
-							mt: 3,
-							children: [Object(C.jsx)(F.a, {
-								variant: "body1",
-								children: "Contract"
-							}), Object(C.jsxs)(F.a, {
-								variant: "h5",
-								children: [x, " BUSD"]
-							})]
-						}), Object(C.jsxs)(Z.a, {
+					}), Object(C.jsxs)(Z.a, {
 							container: !0,
 							justifyContent: "space-between",
 							alignItems: "center",
