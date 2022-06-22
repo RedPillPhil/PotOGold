@@ -296,7 +296,7 @@
 								color: "primary",
 								fullWidth: !0,
 								onClick: function(e) {
-									e.preventDefault(), window.location.href = "https://sherpuppy.dog"
+									e.preventDefault(), window.location.href = "https://.."
 								},
 								children: "Home"
 							})
@@ -792,7 +792,7 @@
 					label: "APR",
 					value: "2,920"
 				}, {
-					label: "Burn Fee",
+					label: "LP Fee",
 					value: 2
 				}];
 
@@ -803,7 +803,7 @@
 							variant: "h5",
 							borderBottom: "6px solid",
 							paddingBottom: 1,
-							children: "Power Staking Details"
+							children: "Staking Details"
 						}), Object(C.jsx)(c.a, {
 							paddingTop: 2,
 							children: ie.map((function(e) {
