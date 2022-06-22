@@ -991,12 +991,14 @@
 					pt: 4,
 					children: [Object(C.jsx)(p.a, {
 						variant: "contained",
+						color: "purple",
 						fullWidth: !0,
 						onClick: function() {
 							return r(!0)
 						},
 						startIcon: Object(C.jsx)(ye.a, {}),
-						children: "Staking Details"
+						children: "Staking Details",
+						color: "purple"
 					}), Object(C.jsx)(pe.a, {
 						open: n,
 						onClose: i,
