@@ -870,7 +870,12 @@
 			}
 
 			function le() {
-				return Object(C.jsx)(Z.a, {
+				return Object(C.jsxs)(Z.a, {
+					container: !0,
+					justifyContent: "center",
+					spacing: 2,
+					marginTop: 4,
+					children: [Object(C.jsx)(Z.a, {
 						item: !0,
 						children: Object(C.jsx)("a", {
 							href: "https://t.me/Sherpuppy",
