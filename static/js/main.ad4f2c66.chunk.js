@@ -1087,9 +1087,9 @@
 					marginBottom: 24
 				}),
 				xe = [{
-					label: "Compound six times a week."
+					label: "Use at your own risks"
 				}, {
-					label: "Claim once a week."
+					label: "Unlike similar platforms your mining power can be withdrawn and traded. When you do so, you will stop earning BUSD"
 				}];
 
 			function ve() {
