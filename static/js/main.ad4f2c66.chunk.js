@@ -294,7 +294,7 @@
 								color: "primary",
 								fullWidth: !0,
 								onClick: function(e) {
-									e.preventDefault(), window.location.href = "https://.."
+									e.preventDefault(), window.location.href = "https://www.poto.gold"
 								},
 								children: "Home"
 							})
@@ -309,7 +309,7 @@
 								color: "primary",
 								fullWidth: !0,
 								onClick: function(e) {
-									e.preventDefault(), window.location.href = "https://soswap.finance/#/swap?outputCurrency=0x99eF0e29700797A92Bc500A3a87fCB8c473A8e93"
+									e.preventDefault(), window.location.href = "https://pancakeswap.finance"
 								},
 								children: "Swap"
 							})
