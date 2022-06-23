@@ -1167,7 +1167,7 @@
 							main: "#8ddc5f"
 						},
 						third: {
-							main: "#ffeb45"
+							main: "radial-gradient(circle, rgba(129,34,195,1) 7%, rgba(34,193,195,1) 19%, rgba(87,81,156,1) 33%, rgba(105,150,89,1) 48%, rgba(238,213,13,1) 58%, rgba(242,130,8,1) 72%, rgba(195,34,75,1) 88%)"
 						},
 						orange: {
 							main: "#ffbd44"
