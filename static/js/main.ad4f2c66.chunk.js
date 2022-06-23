@@ -1087,9 +1087,9 @@
 					marginBottom: 24
 				}),
 				xe = [{
-					label: "Use at your own risks"
+					label: "Use at your own risk"
 				}, {
-					label: "Unlike similar platforms your mining power can be withdrawn and traded. When you do so, you will stop earning BUSD"
+					label: "Retrieving LGOLD will cause you to stop earning BUSD until you add LGOLD again."
 				}];
 
 			function ve() {
