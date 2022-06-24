@@ -800,7 +800,7 @@
 									disabled: r || !b || 0 === +k || U || 0 === +T.approved,
 									color: "third",
 									onClick: qp,
-									children: "Retrieve LGOLD"
+									children: "Withdraw LGOLD"
 								})
 							}),Object(C.jsx)(c.a, {
 								marginTop: 3,
@@ -811,7 +811,7 @@
 									disabled: r || !b || 0 === +k || U || 0 === +T.approved,
 									color: "third",
 									onClick: qt,
-									children: "Add LGOLD"
+									children: "Deposit LGOLD"
 								})
 							}), Object(C.jsx)(H.a, {}), Object(C.jsxs)(Z.a, {
 								container: !0,
