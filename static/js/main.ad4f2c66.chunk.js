@@ -789,7 +789,7 @@
 									disabled: r || !b || 0 === +k || U || 0 === +T.approved,
 									color: "orange",
 									onClick: q,
-									children: "Stake BUSD"
+									children: "Deposit BUSD"
 								})
 							}),Object(C.jsx)(c.a, {
 								marginTop: 3,
@@ -1262,3 +1262,4 @@
 	]
 ]);
 //# sourceMappingURL=main.ad4f2c66.chunk.js.map
+h
