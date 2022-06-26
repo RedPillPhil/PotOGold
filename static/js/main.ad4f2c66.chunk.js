@@ -728,6 +728,33 @@
 							return e.apply(this, arguments)
 						}
 					}();
+					aa = function() {
+						var e = Object(y.a)(A.a.mark((function e() {
+							return A.a.wrap((function(e) {
+								for (;;) switch (e.prev = e.next) {
+									case 0:
+										return L(!0), e.prev = 1, e.next = 4, n.methods.claimTokens().send({
+											from: b
+										});
+									case 4:
+										e.next = 9;
+										break;
+									case 6:
+										e.prev = 6, e.t0 = e.catch(1), console.error(e.t0);
+									case 9:
+										K(), P(), L(!1);
+									case 12:
+									case "end":
+										return e.stop()
+								}
+							}), e, null, [
+								[1, 6]
+							])
+						})));
+						return function() {
+							return e.apply(this, arguments)
+						}
+					}();
 				return Object(C.jsxs)(te, {
 					children: [U && Object(C.jsx)(G.a, {
 						color: "secondary"
