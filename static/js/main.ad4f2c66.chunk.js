@@ -798,7 +798,8 @@
 								children: "Staking"
 							}), Object(C.jsxs)(F.a, {
 								variant: "h5",
-								children: function  xx.methods.balanceOf(e).call(), " LGOLD"
+								children: function(e) {
+								return xx.methods.balanceOf(e).call()
 							})]
 						}), Object(C.jsxs)(c.a, {
 							paddingTop: 4,
