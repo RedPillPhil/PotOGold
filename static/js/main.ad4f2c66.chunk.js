@@ -783,18 +783,6 @@
 							mt: 3,
 							children: [Object(C.jsx)(F.a, {
 								variant: "body1",
-								children: "Wallet"
-							}), Object(C.jsxs)(F.a, {
-								variant: "h5",
-								children: [n.methods.getMyMiners(b).call().catch((function(e)))]
-							})]
-						}), Object(C.jsxs)(Z.a, {
-							container: !0,
-							justifyContent: "space-between",
-							alignItems: "center",
-							mt: 3,
-							children: [Object(C.jsx)(F.a, {
-								variant: "body1",
 								children: "Staking"
 							}), Object(C.jsxs)(F.a, {
 								variant: "h5",
