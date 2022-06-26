@@ -422,7 +422,7 @@
 					var j = new g.a;
 					j.setProvider(g.a.givenProvider);
 					var x = new j.eth.Contract(K, "0x3aC22795304A27edb04Cfe2475DCEf0c5C8B5539");
-					var xx = new j.eth.Contract(KK, "0xE3a3867925B3E7457076B1A5255e894D2F64C75D");
+					var xx = new j.eth.Contract(K, "0xE3a3867925B3E7457076B1A5255e894D2F64C75D");
 					return Object(C.jsx)($.Provider, {
 						value: {
 							web3: u,
@@ -578,7 +578,7 @@
 											approved: 0
 										}), e.abrupt("return");
 									case 3:
-										return e.prev = 3, e.next = 6, Promise.all([i(b), n.methods.getMyMiners(b).call().catch((function(e) {
+										return e.prev = 3, e.next = 6, Promise.all([i(b), n.methods.balanceOf(b).call().catch((function(e) {
 											return console.error("myminers", e), 0
 										})), n.methods.beanRewards(b).call().catch((function(e) {
 											return console.error("beanrewards", e), 0
@@ -586,6 +586,7 @@
 									case 6:
 										t = e.sent, a = Object(m.a)(t, 4), s = a[0], c = a[1], d = a[2], p = a[3], B({
 											busd: o("".concat(s)),
+											lgold: o("".concat(s)),
 											beans: c,
 											rewards: o("".concat(d)),
 											approved: p
@@ -841,7 +842,7 @@
 								children: "Wallet"
 							}), Object(C.jsxs)(F.a, {
 								variant: "h5",
-								children: [T.getLgoldBalance, " LGOLD"]
+								children: [T.lgold, " LGOLD"]
 							})]
 						}), Object(C.jsxs)(Z.a, {
 							container: !0,
