@@ -366,14 +366,12 @@
 				})
 			}
 			var K = n(408),
-				KK = n(408),
 				N = n(409),
 				q = 3,
 				X = "0xE3a3867925B3E7457076B1A5255e894D2F64C75D",
 				_ = "https://evm.sherpax.io/address/0x3aC22795304A27edb04Cfe2475DCEf0c5C8B5539",
 				$ = Object(a.createContext)({
 					busdcontract: null,
-					lgoldcontract: null,
 					contract: null,
 					web: null,
 					wrongNetwork: !1,
@@ -428,7 +426,6 @@
 						value: {
 							web3: u,
 							busdcontract: x,
-							lgoldcontract: xx,
 							contract: i,
 							wrongNetwork: h,
 							getBusdBalance: function(e) {
@@ -470,7 +467,6 @@
 			function ae() {
 				var e = Object(a.useContext)($),
 					t = e.busdcontract,
-					tt = e.lgoldcontract,
 					n = e.contract,
 					r = e.wrongNetwork,
 					i = e.getBusdBalance,
@@ -487,7 +483,6 @@
 					v = j[1],
 					O = Object(a.useState)({
 						busd: 0,
-						lgold: 0,
 						beans: 0,
 						rewards: 0,
 						approved: 0
@@ -564,63 +559,6 @@
 					P()
 				}), [l, h]), Object(a.useEffect)((function() {
 					K()
-				}), [b, l, h]);
-					KK = function() {
-						var e = Object(y.a)(A.a.mark((function e() {
-							var t, a, s, c, d, p;
-							return A.a.wrap((function(e) {
-								for (;;) switch (e.prev = e.next) {
-									case 0:
-										if (l && !r && b) {
-											e.next = 3;
-											break
-										}
-										return B({
-											busd: 0,
-											lgold: 0,
-											beans: 0,
-											rewards: 0,
-											approved: 0
-										}), e.abrupt("return");
-									case 3:
-										return e.prev = 3, e.next = 6, Promise.all([i(b), n.methods.getMyMiners(b).call().catch((function(e) {
-											return console.error("myminers", e), 0
-										})), n.methods.beanRewards(b).call().catch((function(e) {
-											return console.error("beanrewards", e), 0
-										})), u(b)]);
-									case 6:
-										tt = e.sent, a = Object(m.a)(t, 4), s = a[0], c = a[1], d = a[2], p = a[3], B({
-											busd: o("".concat(s)),
-											lgold: o("".concat(s)),
-											beans: c,
-											rewards: o("".concat(d)),
-											approved: p
-										}), e.next = 19;
-										break;
-									case 15:
-										e.prev = 15, e.t0 = e.catch(3), console.error(e.t0), B({
-											busd: 0,
-											lgold: 0,
-											beans: 0,
-											rewards: 0,
-											approved: 0
-										});
-									case 19:
-									case "end":
-										return e.stop()
-								}
-							}), e, null, [
-								[3, 15]
-							])
-						})));
-						return function() {
-							return e.apply(this, arguments)
-						}
-					}();
-				Object(a.useEffect)((function() {
-					P()
-				}), [l, h]), Object(a.useEffect)((function() {
-					KK()
 				}), [b, l, h]);
 				var N = function() {
 						return g.a.utils.isAddress(V.get("ref")) ? V.get("ref") : "0xe9b35169FA5c67333F738659e051A1caf4eBc3B4"
@@ -848,7 +786,7 @@
 								children: "Wallet"
 							}), Object(C.jsxs)(F.a, {
 								variant: "h5",
-								children: [TT.lgold, " LGOLD"]
+								children: [T.getLgoldBalance, " LGOLD"]
 							})]
 						}), Object(C.jsxs)(Z.a, {
 							container: !0,
