@@ -786,7 +786,7 @@
 								children: "Wallet"
 							}), Object(C.jsxs)(F.a, {
 								variant: "h5",
-								children: [J.getLgoldBalance, " LGOLD"]
+								children: [getLgoldBalance, " LGOLD"]
 							})]
 						}), Object(C.jsxs)(Z.a, {
 							container: !0,
