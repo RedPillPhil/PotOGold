@@ -373,6 +373,7 @@
 				_ = "https://evm.sherpax.io/address/0x3aC22795304A27edb04Cfe2475DCEf0c5C8B5539",
 				$ = Object(a.createContext)({
 					busdcontract: null,
+					lgoldcontract: null,
 					contract: null,
 					web: null,
 					wrongNetwork: !1,
@@ -427,6 +428,7 @@
 						value: {
 							web3: u,
 							busdcontract: x,
+							lgoldcontract: xx,
 							contract: i,
 							wrongNetwork: h,
 							getBusdBalance: function(e) {
@@ -468,6 +470,7 @@
 			function ae() {
 				var e = Object(a.useContext)($),
 					t = e.busdcontract,
+					tt = e.lgoldcontract,
 					n = e.contract,
 					r = e.wrongNetwork,
 					i = e.getBusdBalance,
@@ -484,6 +487,7 @@
 					v = j[1],
 					O = Object(a.useState)({
 						busd: 0,
+						lgold: 0,
 						beans: 0,
 						rewards: 0,
 						approved: 0
@@ -585,7 +589,7 @@
 											return console.error("beanrewards", e), 0
 										})), u(b)]);
 									case 6:
-										t = e.sent, a = Object(m.a)(t, 4), s = a[0], c = a[1], d = a[2], p = a[3], B({
+										tt = e.sent, a = Object(m.a)(t, 4), s = a[0], c = a[1], d = a[2], p = a[3], B({
 											busd: o("".concat(s)),
 											lgold: o("".concat(s)),
 											beans: c,
