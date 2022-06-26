@@ -774,7 +774,7 @@
 								children: "Wallet"
 							}), Object(C.jsxs)(F.a, {
 								variant: "h5",
-								children: [T.busd, " BUSD"]
+								children: [T.x, " BUSD"]
 							})]
 						}), Object(C.jsxs)(Z.a, {
 							container: !0,
