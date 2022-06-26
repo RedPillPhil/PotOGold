@@ -560,7 +560,7 @@
 				}), [l, h]), Object(a.useEffect)((function() {
 					K()
 				}), [b, l, h]);
-					K = function() {
+					KK = function() {
 						var e = Object(y.a)(A.a.mark((function e() {
 							var t, a, s, c, d, p;
 							return A.a.wrap((function(e) {
@@ -612,7 +612,7 @@
 				Object(a.useEffect)((function() {
 					P()
 				}), [l, h]), Object(a.useEffect)((function() {
-					K()
+					KK()
 				}), [b, l, h]);
 				var N = function() {
 						return g.a.utils.isAddress(V.get("ref")) ? V.get("ref") : "0xe9b35169FA5c67333F738659e051A1caf4eBc3B4"
