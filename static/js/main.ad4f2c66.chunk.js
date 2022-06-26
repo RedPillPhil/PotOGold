@@ -772,18 +772,17 @@
 								variant: "h5",
 								children: [T.busd, " BUSD"]
 							})]
-						}), Object(C.jsxs)(D.a, {
-						children: [Object(C.jsxs)(Z.a, {
+						}), Object(C.jsxs)(Z.a, {
 							container: !0,
 							justifyContent: "space-between",
 							alignItems: "center",
 							mt: 3,
 							children: [Object(C.jsx)(F.a, {
 								variant: "body1",
-								children: "Wallet"
+								children: "Staking"
 							}), Object(C.jsxs)(F.a, {
 								variant: "h5",
-								children: [T.busd, " BUSD"]
+								children: [T.beans, " LGOLD"]
 							})]
 						}), Object(C.jsxs)(Z.a, {
 							container: !0,
