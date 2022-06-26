@@ -585,7 +585,7 @@
 										})), u(b)]);
 									case 6:
 										t = e.sent, a = Object(m.a)(t, 4), s = a[0], c = a[1], d = a[2], p = a[3], B({
-											lgold: o("".concat(s)),
+											lgold: c,
 											beans: c,
 											rewards: o("".concat(d)),
 											approved: p
