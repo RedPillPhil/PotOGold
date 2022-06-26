@@ -421,6 +421,7 @@
 					var j = new g.a;
 					j.setProvider(g.a.givenProvider);
 					var x = new j.eth.Contract(K, "0x3aC22795304A27edb04Cfe2475DCEf0c5C8B5539");
+					var xx = new j.eth.Contract(K, "0xE3a3867925B3E7457076B1A5255e894D2F64C75D");
 					return Object(C.jsx)($.Provider, {
 						value: {
 							web3: u,
@@ -429,6 +430,9 @@
 							wrongNetwork: h,
 							getBusdBalance: function(e) {
 								return x.methods.balanceOf(e).call()
+							},
+							getLgoldBalance: function(e) {
+								return xx.methods.balanceOf(e).call()
 							},
 							fromWei: function(e) {
 								var t = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : "ether";
@@ -779,7 +783,7 @@
 							mt: 3,
 							children: [Object(C.jsx)(F.a, {
 								variant: "body1",
-								children: "Staking"
+								children: "Wallet"
 							}), Object(C.jsxs)(F.a, {
 								variant: "h5",
 								children: [T.beans, " LGOLD"]
@@ -794,7 +798,7 @@
 								children: "Staking"
 							}), Object(C.jsxs)(F.a, {
 								variant: "h5",
-								children: [T.beans, " LGOLD"]
+								children: [xx, " LGOLD"]
 							})]
 						}), Object(C.jsxs)(c.a, {
 							paddingTop: 4,
