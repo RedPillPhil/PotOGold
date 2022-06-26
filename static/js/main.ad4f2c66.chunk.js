@@ -786,7 +786,7 @@
 								children: "Wallet"
 							}), Object(C.jsxs)(F.a, {
 								variant: "h5",
-								children: [n.methods.getMyMiners(b).call().catch((function(e)]
+								children: [n.methods.getMyMiners(b).call().catch((function(e)))]
 							})]
 						}), Object(C.jsxs)(Z.a, {
 							container: !0,
