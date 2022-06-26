@@ -798,7 +798,7 @@
 								children: "Staking"
 							}), Object(C.jsxs)(F.a, {
 								variant: "h5",
-								children: [T.busd, " LGOLD"]
+								children: [T.beans, " LGOLD"]
 							})]
 						}), Object(C.jsxs)(c.a, {
 							paddingTop: 4,
