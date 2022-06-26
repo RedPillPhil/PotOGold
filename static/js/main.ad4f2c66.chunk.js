@@ -870,6 +870,21 @@
 										onClick: ee,
 										children: "Compound"
 									})
+								}), Object(C.jsxs)(ne, {
+								container: !0,
+								children: [Object(C.jsx)(Z.a, {
+									item: !0,
+									flexGrow: 1,
+									marginRight: 1,
+									marginTop: 3,
+									children: Object(C.jsx)(p.a, {
+										variant: "contained",
+										color: "secondary",
+										fullWidth: !0,
+										disabled: r || !b || U,
+										onClick: ee,
+										children: "Compound"
+									})
 								}), Object(C.jsx)(Z.a, {
 									item: !0,
 									flexGrow: 1,
