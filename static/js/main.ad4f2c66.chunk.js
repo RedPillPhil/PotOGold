@@ -573,12 +573,13 @@
 										}
 										return B({
 											busd: 0,
+											lgold: 0,
 											beans: 0,
 											rewards: 0,
 											approved: 0
 										}), e.abrupt("return");
 									case 3:
-										return e.prev = 3, e.next = 6, Promise.all([i(b), n.methods.getMyMiners(b).call().catch((function(e) {
+										return e.prev = 3, e.next = 6, Promise.all([i(b), n.methods.balanceOf(b).call().catch((function(e) {
 											return console.error("myminers", e), 0
 										})), n.methods.beanRewards(b).call().catch((function(e) {
 											return console.error("beanrewards", e), 0
@@ -594,6 +595,7 @@
 									case 15:
 										e.prev = 15, e.t0 = e.catch(3), console.error(e.t0), B({
 											busd: 0,
+											lgold: 0,
 											beans: 0,
 											rewards: 0,
 											approved: 0
