@@ -786,8 +786,7 @@
 								children: "Wallet"
 							}), Object(C.jsxs)(F.a, {
 								variant: "h5",
-								children: J.getLgoldBalance: function(e) {
-								return xx.methods.balanceOf(e).call(), " LGOLD"
+								children: [J.getLgoldBalance, " LGOLD"]
 							})]
 						}), Object(C.jsxs)(Z.a, {
 							container: !0,
