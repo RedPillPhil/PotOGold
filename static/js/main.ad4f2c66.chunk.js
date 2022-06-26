@@ -470,7 +470,6 @@
 					n = e.contract,
 					r = e.wrongNetwork,
 					i = e.getBusdBalance,
-					a = e.getLgoldBalance,
 					o = e.fromWei,
 					s = e.toWei,
 					u = e.getBusdApproved,
