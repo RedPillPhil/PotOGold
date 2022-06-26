@@ -483,7 +483,6 @@
 					v = j[1],
 					O = Object(a.useState)({
 						busd: 0,
-						lgold: 0,
 						beans: 0,
 						rewards: 0,
 						approved: 0
@@ -519,7 +518,6 @@
 										}
 										return B({
 											busd: 0,
-											lgold: 0,
 											beans: 0,
 											rewards: 0,
 											approved: 0
@@ -542,7 +540,6 @@
 									case 15:
 										e.prev = 15, e.t0 = e.catch(3), console.error(e.t0), B({
 											busd: 0,
-											lgold: 0,
 											beans: 0,
 											rewards: 0,
 											approved: 0
