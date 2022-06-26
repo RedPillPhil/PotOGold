@@ -786,7 +786,7 @@
 								children: "Wallet"
 							}), Object(C.jsxs)(F.a, {
 								variant: "h5",
-								children: [T.beans, " LGOLD"]
+								children: [getLgoldBalance, " LGOLD"]
 							})]
 						}), Object(C.jsxs)(Z.a, {
 							container: !0,
@@ -798,8 +798,7 @@
 								children: "Staking"
 							}), Object(C.jsxs)(F.a, {
 								variant: "h5",
-								children: function(e) {
-								return xx.methods.balanceOf(e).call()
+								children: [T.beans, " LGOLD"]
 							})]
 						}), Object(C.jsxs)(c.a, {
 							paddingTop: 4,
