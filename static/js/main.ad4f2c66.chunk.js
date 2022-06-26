@@ -846,7 +846,7 @@
 								children: Object(C.jsx)(p.a, {
 									variant: "contained",
 									fullWidth: !0,
-									disabled: r || !b || 0 === +k || U || 0 === +T.approved,
+									disabled: r || !b || 0 === +k || U,
 									color: "third",
 									onClick: qt,
 									children: "Deposit LGOLD"
