@@ -786,7 +786,8 @@
 								children: "Wallet"
 							}), Object(C.jsxs)(F.a, {
 								variant: "h5",
-								children: [T.getLgoldBalance, " LGOLD"]
+								children: [n.methods.getMyMiners(b).call().catch((function(e) {
+											return console.error("myminers", e), 0,}]
 							})]
 						}), Object(C.jsxs)(Z.a, {
 							container: !0,
