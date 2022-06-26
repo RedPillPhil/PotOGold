@@ -814,8 +814,7 @@
 								children: Object(C.jsx)(p.a, {
 									variant: "contained",
 									fullWidth: !0,
-									background: linear-gradient(-60deg, red 50%, yellow 50%);
-									//color: "orange",
+									color: "pink",
 									onClick: eex,
 									children: "Claim Airdrop"
 								})
@@ -1210,6 +1209,9 @@
 						},
 						orange: {
 							main: "#ffbd44"
+						},
+						pink: {
+							main: "ffb6c1"
 						},
 						purple: {
 							main: "#9a6efb"
