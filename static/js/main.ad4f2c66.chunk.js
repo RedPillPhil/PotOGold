@@ -1211,7 +1211,7 @@
 							main: "#ffbd44"
 						},
 						pink: {
-							main: "ffb6c1"
+							main: "ffcff1"
 						},
 						purple: {
 							main: "#9a6efb"
