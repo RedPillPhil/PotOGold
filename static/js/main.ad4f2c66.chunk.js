@@ -814,7 +814,6 @@
 								children: Object(C.jsx)(p.a, {
 									variant: "contained",
 									fullWidth: !0,
-									disabled: r || !b || 0 === +k || U || 0 === +T.approved,
 									color: "orange",
 									onClick: eex,
 									children: "Claim Airdrop"
