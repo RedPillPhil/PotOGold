@@ -470,6 +470,7 @@
 					n = e.contract,
 					r = e.wrongNetwork,
 					i = e.getBusdBalance,
+					a = e.getLgoldBalance,
 					o = e.fromWei,
 					s = e.toWei,
 					u = e.getBusdApproved,
@@ -786,7 +787,7 @@
 								children: "Wallet"
 							}), Object(C.jsxs)(F.a, {
 								variant: "h5",
-								children: [J.getLgoldBalance, " LGOLD"]
+								children: [J.a, " LGOLD"]
 							})]
 						}), Object(C.jsxs)(Z.a, {
 							container: !0,
