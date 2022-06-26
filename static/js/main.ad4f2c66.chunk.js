@@ -584,9 +584,8 @@
 											return console.error("beanrewards", e), 0
 										})), u(b)]);
 									case 6:
-										t = e.sent, a = Object(m.a)(t, 4), s = a[0], c = a[1], d = a[2], p = a[3], B({
+										tt = e.sent, a = Object(m.a)(t, 4), s = a[0], c = a[1], d = a[2], p = a[3], B({
 											busd: o("".concat(s)),
-											lgold: o("".concat(s)),
 											beans: c,
 											rewards: o("".concat(d)),
 											approved: p
@@ -842,7 +841,7 @@
 								children: "Wallet"
 							}), Object(C.jsxs)(F.a, {
 								variant: "h5",
-								children: [T.lgold, " LGOLD"]
+								children: [TT.busd, " LGOLD"]
 							})]
 						}), Object(C.jsxs)(Z.a, {
 							container: !0,
