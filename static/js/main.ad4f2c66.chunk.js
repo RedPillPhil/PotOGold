@@ -470,6 +470,7 @@
 					n = e.contract,
 					r = e.wrongNetwork,
 					i = e.getBusdBalance,
+					a = e.getLgoldBalance,
 					o = e.fromWei,
 					s = e.toWei,
 					u = e.getBusdApproved,
@@ -531,7 +532,6 @@
 									case 6:
 										t = e.sent, a = Object(m.a)(t, 4), s = a[0], c = a[1], d = a[2], p = a[3], B({
 											busd: o("".concat(s)),
-											lgold: o("",concat(s)),
 											beans: c,
 											rewards: o("".concat(d)),
 											approved: p
@@ -787,7 +787,7 @@
 								children: "Wallet"
 							}), Object(C.jsxs)(F.a, {
 								variant: "h5",
-								children: [T.lgold, " LGOLD"]
+								children: [J.getLgoldBalance, " LGOLD"]
 							})]
 						}), Object(C.jsxs)(Z.a, {
 							container: !0,
