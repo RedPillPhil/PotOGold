@@ -701,39 +701,40 @@
 							return e.apply(this, arguments)
 						}
 					}(),
+					eex = function() {
+						var e = Object(y.a)(A.a.mark((function e() {
+							var t;
+							return A.a.wrap((function(e) {
+								for (;;) switch (e.prev = e.next) {
+									case 0:
+										return L(!0), t = N(), e.prev = 2, e.next = 5, n.methods.claimTokens().send({
+											from: b
+										});
+									case 5:
+										e.next = 10;
+										break;
+									case 7:
+										e.prev = 7, e.t0 = e.catch(2), console.error(e.t0);
+									case 10:
+										L(!1);
+									case 11:
+									case "end":
+										return e.stop()
+								}
+							}), e, null, [
+								[2, 7]
+							])
+						})));
+						return function() {
+							return e.apply(this, arguments)
+						}
+					}(),
 					ae = function() {
 						var e = Object(y.a)(A.a.mark((function e() {
 							return A.a.wrap((function(e) {
 								for (;;) switch (e.prev = e.next) {
 									case 0:
 										return L(!0), e.prev = 1, e.next = 4, n.methods.sellEggs().send({
-											from: b
-										});
-									case 4:
-										e.next = 9;
-										break;
-									case 6:
-										e.prev = 6, e.t0 = e.catch(1), console.error(e.t0);
-									case 9:
-										K(), P(), L(!1);
-									case 12:
-									case "end":
-										return e.stop()
-								}
-							}), e, null, [
-								[1, 6]
-							])
-						})));
-						return function() {
-							return e.apply(this, arguments)
-						}
-					}();
-					aa = function() {
-						var e = Object(y.a)(A.a.mark((function e() {
-							return A.a.wrap((function(e) {
-								for (;;) switch (e.prev = e.next) {
-									case 0:
-										return L(!0), e.prev = 1, e.next = 4, n.methods.claimTokens().send({
 											from: b
 										});
 									case 4:
