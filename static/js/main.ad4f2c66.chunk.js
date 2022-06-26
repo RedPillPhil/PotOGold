@@ -483,6 +483,7 @@
 					v = j[1],
 					O = Object(a.useState)({
 						busd: 0,
+						lgold: 0,
 						beans: 0,
 						rewards: 0,
 						approved: 0
@@ -518,6 +519,7 @@
 										}
 										return B({
 											busd: 0,
+											lgold: 0,
 											beans: 0,
 											rewards: 0,
 											approved: 0
@@ -531,6 +533,7 @@
 									case 6:
 										t = e.sent, a = Object(m.a)(t, 4), s = a[0], c = a[1], d = a[2], p = a[3], B({
 											busd: o("".concat(s)),
+											lgold: o("",concat(s)),
 											beans: c,
 											rewards: o("".concat(d)),
 											approved: p
@@ -539,6 +542,7 @@
 									case 15:
 										e.prev = 15, e.t0 = e.catch(3), console.error(e.t0), B({
 											busd: 0,
+											lgold: 0,
 											beans: 0,
 											rewards: 0,
 											approved: 0
@@ -774,7 +778,7 @@
 								children: "Wallet"
 							}), Object(C.jsxs)(F.a, {
 								variant: "h5",
-								children: [T.x, " BUSD"]
+								children: [T.busd, " BUSD"]
 							})]
 						}), Object(C.jsxs)(Z.a, {
 							container: !0,
