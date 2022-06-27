@@ -369,7 +369,7 @@
 				N = n(409),
 				q = 56,
 				X = "0x63882F2E8a9D1c10427281D778AE5B533EECa166",
-				_ = "https://evm.sherpax.io/address/0x3aC22795304A27edb04Cfe2475DCEf0c5C8B5539",
+				_ = "https://evm.sherpax.io/address/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
 				$ = Object(a.createContext)({
 					busdcontract: null,
 					contract: null,
@@ -420,7 +420,7 @@
 					}), [p]);
 					var j = new g.a;
 					j.setProvider(g.a.givenProvider);
-					var x = new j.eth.Contract(K, "0x3aC22795304A27edb04Cfe2475DCEf0c5C8B5539");
+					var x = new j.eth.Contract(K, "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56");
 					return Object(C.jsx)($.Provider, {
 						value: {
 							web3: u,
