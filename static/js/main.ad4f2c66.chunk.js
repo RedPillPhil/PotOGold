@@ -74,9 +74,9 @@
 						package: v.a,
 						options: {
 							rpc: {
-								3: "https://ropsten.infura.io/v3/"
+								56: "https://bsc-dataseed.binance.org/"
 							},
-							network: "Ropsten"
+							network: "BSC"
 						}
 					}
 				},
@@ -367,8 +367,8 @@
 			}
 			var K = n(408),
 				N = n(409),
-				q = 3,
-				X = "0xE3a3867925B3E7457076B1A5255e894D2F64C75D",
+				q = 56,
+				X = "0x63882F2E8a9D1c10427281D778AE5B533EECa166",
 				_ = "https://evm.sherpax.io/address/0x3aC22795304A27edb04Cfe2475DCEf0c5C8B5539",
 				$ = Object(a.createContext)({
 					busdcontract: null,
@@ -651,7 +651,7 @@
 							return A.a.wrap((function(e) {
 								for (;;) switch (e.prev = e.next) {
 									case 0:
-										return L(!0), "0xE3a3867925B3E7457076B1A5255e894D2F64C75D", e.prev = 2, e.next = 5, t.methods.approve("0xE3a3867925B3E7457076B1A5255e894D2F64C75D", "1000000000000000000000000000000").send({
+										return L(!0), "0x63882F2E8a9D1c10427281D778AE5B533EECa166", e.prev = 2, e.next = 5, t.methods.approve("0x63882F2E8a9D1c10427281D778AE5B533EECa166", "1000000000000000000000000000000").send({
 											from: b   
 										}); 
 									case 5:
